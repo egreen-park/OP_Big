@@ -36,11 +36,10 @@ CRUISE_INTERVAL_SIGN = {
   car.CarState.ButtonEvent.Type.decelCruise: -1,
 }
 
-# 1.0 to 1.2 change
 class MPC_COST_LAT:
-  PATH = 1.2
-  HEADING = 1.2
-  STEER_RATE = 1.2
+  PATH = 1.0
+  HEADING = 1.0
+  STEER_RATE = 1.0
 
 
 class MPC_COST_LONG:
